@@ -1,0 +1,11 @@
+Recursion in computer science is a technique where the solution to the problem depends
+on solutions to smaller instances of the same problem.
+
+There are two approaches
+1. Top down
+2. Down to Top
+
+The case for which we know the answer is called base case.
+By setting this base case we can use recusrion to find answer of other values.
+Recusrsion uses call stack approach.
+
