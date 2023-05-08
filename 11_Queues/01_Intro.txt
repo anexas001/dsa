@@ -1,0 +1,28 @@
+What is queue?
+The data strusture where we can apply FIFO order
+
+Two pointer: 
+front
+rear
+
+push -> rear
+pop -> front
+
+operations/functions:
+1. push/insert/enqueue
+2. pop/remove/dequeue
+3. size
+4. isEmpty
+
+implementing Queue :
+- Using Array
+- Using Linked
+- Using STL(Standard Template Library)
+
+Some Basic STL operations:
+- queue.push()
+- queue.pop()
+- queue.size()
+- queue.empty()
+- queue.front()
+- queue.rear()
