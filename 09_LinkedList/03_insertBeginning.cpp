@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Node{
+    public:
+    int data;
+    Node* next;
+    Node(int k){
+        data = k;
+        next=NULL;
+    }
+};
+void print(Node* head){
+    Node* curr = head;
+    while(curr!=NULL){
+        cout<<curr->data<<" ";
+        curr=curr->next;
+    }
+    cout<<endl;
+}
+
+Node* insertAtHead(Node* head, int x){
+    Node* temp = new Node(x);
+    temp->next = head;
+    head = temp;
+    return head;
+}
+
+int main()
+{
+    Node* head = new Node(10);
+    head->next = new Node(20);
+    print(head);
+    head = insertAtHead(head, 30);
+    print(head);
+    return 0;
+}
